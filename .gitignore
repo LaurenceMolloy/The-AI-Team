@@ -1,0 +1,9 @@
+/folder_to_analyse/*
+/data/analysis_outputs/*
+/data/test_data/*
+
+
+/llm_experiments/*
+
+# all files pre-pended with IGNORE will be ignored by git 
+**/IGNORE*

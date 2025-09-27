@@ -1,0 +1,1145 @@
+{
+  "version": "1.0.21",
+  "source_language": "en",
+  "file_id": "4b568561-6972-4805-8030-2625783ebc94",
+  "production": true,
+  "pipeline": [
+    {
+      "stage": "scrape",
+      "script": "text1",
+      "version": "1.0.2",
+      "scrape_id": "331d5295-ea1a-4f4c-89da-61ecdc88837d",
+      "endpoints": [
+        "url1"
+      ],
+      "timestamp_start": "2025-08-18T13:57:37.659261",
+      "timestamp_end": "2025-08-18T13:58:06.390508",
+      "duration_hhmmss": "0:00:28.731247",
+      "records_total": 780,
+      "records_pass": 780,
+      "batch_number": null
+    }
+  ],
+  "records": [
+    {
+      "json_id": 0,
+      "inferred_fields": [],
+      "data_providers": [
+        {
+          "json_id": 0,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text6",
+          "url": "url2",
+          "domain": "text7",
+          "domain_tenant": null,
+          "uuid": "text8",
+          "api_url": null,
+          "data_host": true,
+          "data_owner": false,
+          "logo_url": "url3",
+          "description": "text9",
+          "type": "text10"
+        },
+        {
+          "json_id": 1,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text11",
+          "url": "url4",
+          "domain": "text12",
+          "domain_tenant": null,
+          "uuid": "text13",
+          "api_url": null,
+          "data_host": false,
+          "data_owner": true,
+          "logo_url": "url5",
+          "description": null,
+          "type": "text14"
+        }
+      ],
+      "contacts": [
+        {
+          "json_id": 0,
+          "inferred_fields": [
+            "text15"
+          ],
+          "provider_id": 0,
+          "contact_name": null,
+          "contact_role": null,
+          "contact_email": "email1",
+          "contact_number": null,
+          "primary_contact": true,
+          "notes": null
+        }
+      ],
+      "citations": [
+        {
+          "publication": null,
+          "year": null,
+          "title": null,
+          "url": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "authors": [
+        {
+          "citation_id": null,
+          "orcid": null,
+          "name": null,
+          "email": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "unique_datasets": [
+        {
+          "json_id": 0,
+          "inferred_fields": [],
+          "owner_name": "text11",
+          "title": "text16",
+          "created": "phone1",
+          "uuid_string": "text17",
+          "uuid": "text18"
+        }
+      ],
+      "dataset_identifiers": [
+        {
+          "json_id": 0,
+          "inferred_fields": [],
+          "host_url": "text7",
+          "host_dataset_id": "text19",
+          "uuid": "text20"
+        }
+      ],
+      "datasets": [
+        {
+          "json_id": 0,
+          "inferred_fields": [
+            "text21",
+            "text22"
+          ],
+          "title": "text16",
+          "url": "url6",
+          "url_response_code": null,
+          "summary": "text23",
+          "description": null,
+          "created": "phone1",
+          "last_updated": "phone2",
+          "update_frequency": "text24",
+          "date_span_start": "phone3",
+          "date_span_end": "phone3",
+          "availability": "text25",
+          "privacy": "text26",
+          "metadata_url": "url1",
+          "schema": null,
+          "dataset_type": null,
+          "update_hash": "phone4"
+        }
+      ],
+      "data_files": [
+        {
+          "json_id": 0,
+          "inferred_fields": [],
+          "format": "text27",
+          "mime_type": "text28",
+          "mime_type_media": "text29",
+          "mime_type_format": "text30",
+          "version": null,
+          "size_mb": 0.01,
+          "url": "url7",
+          "url_response_code": null,
+          "created": null,
+          "last_updated": null,
+          "description": null,
+          "detailed_description": null,
+          "access_restrictions": "text31",
+          "update_hash": "text32"
+        }
+      ],
+      "data_resources": [
+        {
+          "json_id": 0,
+          "inferred_fields": [],
+          "type": "text33",
+          "url": "url7",
+          "url_response_code": null,
+          "name": null,
+          "description": null,
+          "update_hash": "text34",
+          "created": null,
+          "last_updated": null,
+          "access_restrictions": "text31",
+          "version": null,
+          "service_type": null,
+          "service_protocol": null,
+          "file_format": "text27",
+          "file_mime_type": "text28",
+          "file_mime_type_media": "text29",
+          "file_mime_type_format": "text30",
+          "file_size_mb": 0.01,
+          "page_type": null
+        }
+      ],
+      "data_collections": [
+        {
+          "reference": null,
+          "reference_type": null,
+          "name": null,
+          "url": null,
+          "description": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "data_licences": [
+        {
+          "json_id": 0,
+          "inferred_fields": [
+            "text35",
+            "text36"
+          ],
+          "name": "text37",
+          "short_name": "text38",
+          "version": "text39",
+          "url": "url8",
+          "description": null
+        }
+      ],
+      "data_tags": [
+        {
+          "tag": null,
+          "tag_lower": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "locations": [
+        {
+          "reference": null,
+          "reference_type": null,
+          "name": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "bounding_boxes": [
+        {
+          "upper_latitude": null,
+          "upper_longitude": null,
+          "lower_latitude": null,
+          "lower_longitude": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ]
+    },
+    {
+      "json_id": 1,
+      "inferred_fields": [],
+      "data_providers": [
+        {
+          "json_id": 2,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text6",
+          "url": "url2",
+          "domain": "text7",
+          "domain_tenant": null,
+          "uuid": "text8",
+          "api_url": null,
+          "data_host": true,
+          "data_owner": false,
+          "logo_url": "url3",
+          "description": "text9",
+          "type": "text10"
+        },
+        {
+          "json_id": 3,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text40",
+          "url": "url9",
+          "domain": "text41",
+          "domain_tenant": null,
+          "uuid": "text42",
+          "api_url": null,
+          "data_host": false,
+          "data_owner": true,
+          "logo_url": "url10",
+          "description": null,
+          "type": "text14"
+        }
+      ],
+      "contacts": [
+        {
+          "json_id": 1,
+          "inferred_fields": [
+            "text15"
+          ],
+          "provider_id": 2,
+          "contact_name": null,
+          "contact_role": null,
+          "contact_email": "email1",
+          "contact_number": null,
+          "primary_contact": true,
+          "notes": null
+        }
+      ],
+      "citations": [
+        {
+          "publication": null,
+          "year": null,
+          "title": null,
+          "url": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "authors": [
+        {
+          "citation_id": null,
+          "orcid": null,
+          "name": null,
+          "email": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "unique_datasets": [
+        {
+          "json_id": 1,
+          "inferred_fields": [],
+          "owner_name": "text40",
+          "title": "text43",
+          "created": "phone5",
+          "uuid_string": "text44",
+          "uuid": "text45"
+        }
+      ],
+      "dataset_identifiers": [
+        {
+          "json_id": 1,
+          "inferred_fields": [],
+          "host_url": "text7",
+          "host_dataset_id": "text46",
+          "uuid": "text47"
+        }
+      ],
+      "datasets": [
+        {
+          "json_id": 1,
+          "inferred_fields": [
+            "text21",
+            "text22"
+          ],
+          "title": "text43",
+          "url": "url11",
+          "url_response_code": null,
+          "summary": "text48",
+          "description": null,
+          "created": "phone5",
+          "last_updated": "phone6",
+          "update_frequency": "text24",
+          "date_span_start": "phone7",
+          "date_span_end": "phone2",
+          "availability": "text25",
+          "privacy": "text26",
+          "metadata_url": "url1",
+          "schema": null,
+          "dataset_type": null,
+          "update_hash": "text49"
+        }
+      ],
+      "data_files": [
+        {
+          "json_id": 1,
+          "inferred_fields": [],
+          "format": "text27",
+          "mime_type": "text28",
+          "mime_type_media": "text29",
+          "mime_type_format": "text30",
+          "version": null,
+          "size_mb": 0.39,
+          "url": "url12",
+          "url_response_code": null,
+          "created": null,
+          "last_updated": null,
+          "description": null,
+          "detailed_description": null,
+          "access_restrictions": "text31",
+          "update_hash": "text50"
+        }
+      ],
+      "data_resources": [
+        {
+          "json_id": 1,
+          "inferred_fields": [],
+          "type": "text33",
+          "url": "url12",
+          "url_response_code": null,
+          "name": null,
+          "description": null,
+          "update_hash": "text51",
+          "created": null,
+          "last_updated": null,
+          "access_restrictions": "text31",
+          "version": null,
+          "service_type": null,
+          "service_protocol": null,
+          "file_format": "text27",
+          "file_mime_type": "text28",
+          "file_mime_type_media": "text29",
+          "file_mime_type_format": "text30",
+          "file_size_mb": 0.39,
+          "page_type": null
+        }
+      ],
+      "data_collections": [
+        {
+          "reference": null,
+          "reference_type": null,
+          "name": null,
+          "url": null,
+          "description": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "data_licences": [
+        {
+          "json_id": 1,
+          "inferred_fields": [
+            "text35",
+            "text36"
+          ],
+          "name": "text37",
+          "short_name": "text38",
+          "version": "text39",
+          "url": "url8",
+          "description": null
+        }
+      ],
+      "data_tags": [
+        {
+          "tag": null,
+          "tag_lower": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "locations": [
+        {
+          "json_id": 0,
+          "inferred_fields": [
+            "name"
+          ],
+          "reference": null,
+          "reference_type": null,
+          "name": "England and Wales"
+        }
+      ],
+      "bounding_boxes": [
+        {
+          "upper_latitude": null,
+          "upper_longitude": null,
+          "lower_latitude": null,
+          "lower_longitude": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ]
+    },
+    {
+      "json_id": 2,
+      "inferred_fields": [],
+      "data_providers": [
+        {
+          "json_id": 4,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text6",
+          "url": "url2",
+          "domain": "text7",
+          "domain_tenant": null,
+          "uuid": "text8",
+          "api_url": null,
+          "data_host": true,
+          "data_owner": false,
+          "logo_url": "url3",
+          "description": "text9",
+          "type": "text10"
+        },
+        {
+          "json_id": 5,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text52",
+          "url": "url13",
+          "domain": "text53",
+          "domain_tenant": null,
+          "uuid": "text54",
+          "api_url": null,
+          "data_host": false,
+          "data_owner": true,
+          "logo_url": "url14",
+          "description": null,
+          "type": "text14"
+        }
+      ],
+      "contacts": [
+        {
+          "json_id": 2,
+          "inferred_fields": [
+            "text15"
+          ],
+          "provider_id": 4,
+          "contact_name": null,
+          "contact_role": null,
+          "contact_email": "email1",
+          "contact_number": null,
+          "primary_contact": true,
+          "notes": null
+        }
+      ],
+      "citations": [
+        {
+          "publication": null,
+          "year": null,
+          "title": null,
+          "url": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "authors": [
+        {
+          "citation_id": null,
+          "orcid": null,
+          "name": null,
+          "email": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "unique_datasets": [
+        {
+          "json_id": 2,
+          "inferred_fields": [],
+          "owner_name": "text52",
+          "title": "text55",
+          "created": "phone8",
+          "uuid_string": "text56",
+          "uuid": "text57"
+        }
+      ],
+      "dataset_identifiers": [
+        {
+          "json_id": 2,
+          "inferred_fields": [],
+          "host_url": "text7",
+          "host_dataset_id": "text58",
+          "uuid": "text59"
+        }
+      ],
+      "datasets": [
+        {
+          "json_id": 2,
+          "inferred_fields": [
+            "text21",
+            "text22"
+          ],
+          "title": "text55",
+          "url": "url15",
+          "url_response_code": null,
+          "summary": "text60",
+          "description": null,
+          "created": "phone8",
+          "last_updated": "phone8",
+          "update_frequency": "text24",
+          "date_span_start": "phone9",
+          "date_span_end": "phone10",
+          "availability": "text25",
+          "privacy": "text26",
+          "metadata_url": "url1",
+          "schema": null,
+          "dataset_type": null,
+          "update_hash": "text61"
+        }
+      ],
+      "data_files": [
+        {
+          "json_id": 2,
+          "inferred_fields": [],
+          "format": "text27",
+          "mime_type": "text28",
+          "mime_type_media": "text29",
+          "mime_type_format": "text30",
+          "version": null,
+          "size_mb": 0.03,
+          "url": "url16",
+          "url_response_code": null,
+          "created": null,
+          "last_updated": null,
+          "description": null,
+          "detailed_description": null,
+          "access_restrictions": "text31",
+          "update_hash": "text62"
+        }
+      ],
+      "data_resources": [
+        {
+          "json_id": 2,
+          "inferred_fields": [],
+          "type": "text33",
+          "url": "url16",
+          "url_response_code": null,
+          "name": null,
+          "description": null,
+          "update_hash": "text63",
+          "created": null,
+          "last_updated": null,
+          "access_restrictions": "text31",
+          "version": null,
+          "service_type": null,
+          "service_protocol": null,
+          "file_format": "text27",
+          "file_mime_type": "text28",
+          "file_mime_type_media": "text29",
+          "file_mime_type_format": "text30",
+          "file_size_mb": 0.03,
+          "page_type": null
+        }
+      ],
+      "data_collections": [
+        {
+          "reference": null,
+          "reference_type": null,
+          "name": null,
+          "url": null,
+          "description": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "data_licences": [
+        {
+          "json_id": 2,
+          "inferred_fields": [
+            "text35",
+            "text36"
+          ],
+          "name": "text37",
+          "short_name": "text38",
+          "version": "text39",
+          "url": "url8",
+          "description": null
+        }
+      ],
+      "data_tags": [
+        {
+          "tag": null,
+          "tag_lower": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "locations": [
+        {
+          "json_id": 1,
+          "inferred_fields": [
+            "name"
+          ],
+          "reference": null,
+          "reference_type": null,
+          "name": "Scotland"
+        }
+      ],
+      "bounding_boxes": [
+        {
+          "upper_latitude": null,
+          "upper_longitude": null,
+          "lower_latitude": null,
+          "lower_longitude": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ]
+    },
+    {
+      "json_id": 3,
+      "inferred_fields": [],
+      "data_providers": [
+        {
+          "json_id": 6,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text6",
+          "url": "url2",
+          "domain": "text7",
+          "domain_tenant": null,
+          "uuid": "text8",
+          "api_url": null,
+          "data_host": true,
+          "data_owner": false,
+          "logo_url": "url3",
+          "description": "text9",
+          "type": "text10"
+        },
+        {
+          "json_id": 7,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text64",
+          "url": "url17",
+          "domain": "text65",
+          "domain_tenant": null,
+          "uuid": "text66",
+          "api_url": null,
+          "data_host": false,
+          "data_owner": true,
+          "logo_url": null,
+          "description": null,
+          "type": "text14"
+        }
+      ],
+      "contacts": [
+        {
+          "json_id": 3,
+          "inferred_fields": [
+            "text15"
+          ],
+          "provider_id": 6,
+          "contact_name": null,
+          "contact_role": null,
+          "contact_email": "email1",
+          "contact_number": null,
+          "primary_contact": true,
+          "notes": null
+        }
+      ],
+      "citations": [
+        {
+          "publication": null,
+          "year": null,
+          "title": null,
+          "url": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "authors": [
+        {
+          "citation_id": null,
+          "orcid": null,
+          "name": null,
+          "email": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "unique_datasets": [
+        {
+          "json_id": 3,
+          "inferred_fields": [],
+          "owner_name": "text64",
+          "title": "text67",
+          "created": "phone11",
+          "uuid_string": "text68",
+          "uuid": "text69"
+        }
+      ],
+      "dataset_identifiers": [
+        {
+          "json_id": 3,
+          "inferred_fields": [],
+          "host_url": "text7",
+          "host_dataset_id": "text70",
+          "uuid": "text71"
+        }
+      ],
+      "datasets": [
+        {
+          "json_id": 3,
+          "inferred_fields": [
+            "text21",
+            "text22"
+          ],
+          "title": "text67",
+          "url": "url18",
+          "url_response_code": null,
+          "summary": "text72",
+          "description": null,
+          "created": "phone11",
+          "last_updated": "phone12",
+          "update_frequency": "text24",
+          "date_span_start": "phone13",
+          "date_span_end": "phone14",
+          "availability": "text25",
+          "privacy": "text26",
+          "metadata_url": "url1",
+          "schema": null,
+          "dataset_type": null,
+          "update_hash": "text73"
+        }
+      ],
+      "data_files": [
+        {
+          "json_id": 3,
+          "inferred_fields": [],
+          "format": "text74",
+          "mime_type": "text75",
+          "mime_type_media": "text76",
+          "mime_type_format": "text74",
+          "version": null,
+          "size_mb": 0.06,
+          "url": "url19",
+          "url_response_code": null,
+          "created": null,
+          "last_updated": null,
+          "description": null,
+          "detailed_description": null,
+          "access_restrictions": "text31",
+          "update_hash": "text77"
+        }
+      ],
+      "data_resources": [
+        {
+          "json_id": 3,
+          "inferred_fields": [],
+          "type": "text33",
+          "url": "url19",
+          "url_response_code": null,
+          "name": null,
+          "description": null,
+          "update_hash": "text78",
+          "created": null,
+          "last_updated": null,
+          "access_restrictions": "text31",
+          "version": null,
+          "service_type": null,
+          "service_protocol": null,
+          "file_format": "text74",
+          "file_mime_type": "text75",
+          "file_mime_type_media": "text76",
+          "file_mime_type_format": "text74",
+          "file_size_mb": 0.06,
+          "page_type": null
+        }
+      ],
+      "data_collections": [
+        {
+          "reference": null,
+          "reference_type": null,
+          "name": null,
+          "url": null,
+          "description": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "data_licences": [
+        {
+          "json_id": 3,
+          "inferred_fields": [
+            "text35",
+            "text36"
+          ],
+          "name": "text37",
+          "short_name": "text38",
+          "version": "text39",
+          "url": "url8",
+          "description": null
+        }
+      ],
+      "data_tags": [
+        {
+          "tag": null,
+          "tag_lower": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "locations": [
+        {
+          "json_id": 2,
+          "inferred_fields": [
+            "name"
+          ],
+          "reference": null,
+          "reference_type": null,
+          "name": "England and Wales"
+        }
+      ],
+      "bounding_boxes": [
+        {
+          "upper_latitude": null,
+          "upper_longitude": null,
+          "lower_latitude": null,
+          "lower_longitude": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ]
+    },
+    {
+      "json_id": 4,
+      "inferred_fields": [],
+      "data_providers": [
+        {
+          "json_id": 8,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text6",
+          "url": "url2",
+          "domain": "text7",
+          "domain_tenant": null,
+          "uuid": "text8",
+          "api_url": null,
+          "data_host": true,
+          "data_owner": false,
+          "logo_url": "url3",
+          "description": "text9",
+          "type": "text10"
+        },
+        {
+          "json_id": 9,
+          "inferred_fields": [
+            "text2",
+            "text3",
+            "text4",
+            "text5"
+          ],
+          "name": "text79",
+          "url": "url20",
+          "domain": "text80",
+          "domain_tenant": null,
+          "uuid": "text81",
+          "api_url": null,
+          "data_host": false,
+          "data_owner": true,
+          "logo_url": null,
+          "description": null,
+          "type": "text14"
+        }
+      ],
+      "contacts": [
+        {
+          "json_id": 4,
+          "inferred_fields": [
+            "text15"
+          ],
+          "provider_id": 8,
+          "contact_name": null,
+          "contact_role": null,
+          "contact_email": "email1",
+          "contact_number": null,
+          "primary_contact": true,
+          "notes": null
+        }
+      ],
+      "citations": [
+        {
+          "publication": null,
+          "year": null,
+          "title": null,
+          "url": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "authors": [
+        {
+          "citation_id": null,
+          "orcid": null,
+          "name": null,
+          "email": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "unique_datasets": [
+        {
+          "json_id": 4,
+          "inferred_fields": [],
+          "owner_name": "text79",
+          "title": "text82",
+          "created": "phone15",
+          "uuid_string": "text83",
+          "uuid": "text84"
+        }
+      ],
+      "dataset_identifiers": [
+        {
+          "json_id": 4,
+          "inferred_fields": [],
+          "host_url": "text7",
+          "host_dataset_id": "text85",
+          "uuid": "phone16"
+        }
+      ],
+      "datasets": [
+        {
+          "json_id": 4,
+          "inferred_fields": [
+            "text21",
+            "text22"
+          ],
+          "title": "text82",
+          "url": "url21",
+          "url_response_code": null,
+          "summary": "text86",
+          "description": null,
+          "created": "phone15",
+          "last_updated": "phone15",
+          "update_frequency": "text24",
+          "date_span_start": "phone17",
+          "date_span_end": "phone18",
+          "availability": "text25",
+          "privacy": "text26",
+          "metadata_url": "url1",
+          "schema": null,
+          "dataset_type": null,
+          "update_hash": "text87"
+        }
+      ],
+      "data_files": [
+        {
+          "json_id": 4,
+          "inferred_fields": [],
+          "format": "text27",
+          "mime_type": "text28",
+          "mime_type_media": "text29",
+          "mime_type_format": "text30",
+          "version": null,
+          "size_mb": 0.04,
+          "url": "url22",
+          "url_response_code": null,
+          "created": null,
+          "last_updated": null,
+          "description": null,
+          "detailed_description": null,
+          "access_restrictions": "text31",
+          "update_hash": "text88"
+        }
+      ],
+      "data_resources": [
+        {
+          "json_id": 4,
+          "inferred_fields": [],
+          "type": "text33",
+          "url": "url22",
+          "url_response_code": null,
+          "name": null,
+          "description": null,
+          "update_hash": "text89",
+          "created": null,
+          "last_updated": null,
+          "access_restrictions": "text31",
+          "version": null,
+          "service_type": null,
+          "service_protocol": null,
+          "file_format": "text27",
+          "file_mime_type": "text28",
+          "file_mime_type_media": "text29",
+          "file_mime_type_format": "text30",
+          "file_size_mb": 0.04,
+          "page_type": null
+        }
+      ],
+      "data_collections": [
+        {
+          "reference": null,
+          "reference_type": null,
+          "name": null,
+          "url": null,
+          "description": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "data_licences": [
+        {
+          "json_id": 4,
+          "inferred_fields": [
+            "text35",
+            "text36"
+          ],
+          "name": "text37",
+          "short_name": "text38",
+          "version": "text39",
+          "url": "url8",
+          "description": null
+        }
+      ],
+      "data_tags": [
+        {
+          "tag": null,
+          "tag_lower": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ],
+      "locations": [
+        {
+          "json_id": 3,
+          "inferred_fields": [
+            "name"
+          ],
+          "reference": null,
+          "reference_type": null,
+          "name": "England and Wales"
+        }
+      ],
+      "bounding_boxes": [
+        {
+          "upper_latitude": null,
+          "upper_longitude": null,
+          "lower_latitude": null,
+          "lower_longitude": null,
+          "json_id": 0,
+          "inferred_fields": []
+        }
+      ]
+    }
+  ],
+  "records_total": 780,
+  "records_pass": 780
+}
