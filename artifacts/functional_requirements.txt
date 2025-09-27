@@ -1,0 +1,24 @@
+I would like you to produce some python code that performs an aggregate 
+analysis of a folder full of JSON metadata files just like the one I have 
+provided here.
+ 
+ <sample JSON metadata file> 
+ 
+ I would like to know the following: 
+ 
+ (1) how many files are there in the folder
+ (2) how many of these files have at least one record with a named location 
+ (3) how many files contain at least one Scottish record 
+ (4) how many records there are in total 
+ (5) how many records have a named location 
+ (6) how many records are labelled as Scottish 
+ (7) which files contain no records with named locations 
+ (8) which files contain no Scottish records 
+ 
+ Other considerations: 
+
+ (1) everything can be considered to be case insensitive 
+ (2) empty and null-valued strings can be considered unpopulated/unspecified 
+ 
+Inputs: The user will provide the folder path on the command line 
+Outputs: a YAML file called location_analysis.yaml

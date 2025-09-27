@@ -1,0 +1,27 @@
+ADJUSTMENT #1:
+
+Can you adjust the code to provide the user supplied path as a processed_folder 
+field in the yaml file immediately above the file listings and then remove the 
+path from all the filenames themselves (as they are no longer necessary)
+
+ADJUSTMENT #2:
+
+Can you now add a new block to the YAML that keeps count of how populated each 
+file is in terms of location and provides a summary of how many files falls into 
+each bucket as specified below. Please include the comments in the output yaml.
+I believe you will need to use ruamel for that.
+
+location_population_level_distribution:
+
+  empty: <int>
+  trace: <int>         # up to 5% populated
+  low: <int>           # 5% < population level <= 25%
+  medium: <int>        # 25% < population level <= 50%
+  high: <int>          # 50% < population level < 100%
+  full: <int>          # 100% populated
+
+ADJUSTMENT #3:
+
+Can you now add the same but for location="Scotland" prevalence.
+Call this block scottish_location_distribution
+

@@ -1,0 +1,70 @@
+TASK
+
+Write Python code that performs aggregate analysis of a folder of JSON files.
+
+REQUIREMENTS
+
+Analyse the folder and report the foloowing aggregate statistics
+
+FOR FILES
+1. Total number of JSON files.
+2. Number of empty files (no records).
+3. Number of files that fail to process (errors).
+4. Number of files with at least one record containing a populated location name.
+5. Number of files with at least one record containing a Scottish location name.
+6. Identities of empty files.
+7. Identities of files without any populated location names.
+8. Identities of files without any Scottish location names.
+
+FOR RECORDS
+1. Total number of records across all files.
+2. Number of records that fail to process (errors).
+3. Number of empty records (no populated location name fields).
+4. Number of records with at least one populated location name.
+5. Number of records with at least one location name equal to “Scotland”.
+
+DEFINITIONS
+JSON FILE: filename ends with .json.
+RECORD: dictionary in the records list of a file.
+LOCATION NAME: name field inside a dictionary within the locations list of a record.
+POPULATED RECORD: has at least one location name that is not NULL or empty after trimming whitespace.
+POPULATED FILE: has at least one populated record.
+FILE IDENTITY: filename without path or final .json extension. Preserve other dots (e.g. file.old.json → file.old).
+MATCHING: exact, case-insensitive string equality after trimming whitespace.
+ERRORS: if processing a file or record throws an error, increment the relevant error counter and continue.
+
+INPUTS:
+
+A folder path provided on the command line.
+
+OUTPUTS:
+
+YAML file: location_analysis.yaml
+
+files:
+    total: 70
+    error: 1
+    empty: 1
+    populated: 68
+    scottish: 42
+
+records:
+    total: 55662
+    error: 1
+    empty: 1
+    populated: 50686
+    scottish: 16473
+
+Text file: location_analysis.txt
+
+Filenames listed alphabetically
+
+files_empty:
+    FILENAME
+    FILENAME
+files_without_locations:
+    FILENAME
+    FILENAME
+files_without_scottish_records:
+    FILENAME
+    FILENAME

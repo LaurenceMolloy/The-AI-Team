@@ -1,0 +1,70 @@
+I would like you to produce some python code that performs an aggregate analysis 
+of a folder full of JSON files just like the one I have provided here.
+
+<sample JSON attached>
+
+I would like to know the following:
+
+(1) how many JSON files there are
+(2) how many JSON files are empty (contain no records)
+(3) how many JSON files throw errors upon processing
+(4) how may files have at least one record with a populated location name 
+(5) how many files have at least one record that meets requirement 9
+(6) how many records there are in total
+(7) how many records throw errors upon processing
+(8) how many records are empty (contain no populated leaf field values)
+(9) how many records have at least one populated location name field
+(10) how many records contain at least one location name field with a value of Scotland
+(11) the identities of the files that are empty
+(12) the identities of the files that have no location names
+(13) the identities of the files that have no Scottish location names
+
+Definitions:
+
+1. JSON files are files whose filename ends with the .json extension
+2. A record is considered populated if at least one location name field within 
+   it exists and contains a value that is not empty, once all leading and trailing 
+   whitespace has been stripped, or NULL.
+3. A file is considered populated if at least one of its records is considered 
+   populated.
+4. Records are anonymous dictionary blocks in the “records” list
+5. Each record includes a locations block, which is a list of anonymous dictionaries. 
+   The name of each location is stored in the name field.
+6. File identity should be specified without path or extension. Only strip from last 
+   dot e.g. “file.old.json” is identified as “file.old”.
+7. All matches are exact (not substring) and case-insensitive, once all leading and 
+   trailing whitespace has been stripped.
+8. When you encounter an error, just increment the error counter and move on to the 
+   next file.
+
+Inputs: The user will provide the folder path on the command line
+
+Outputs: 
+
+1. A YAML file called location_analysis.yaml. Format as follows:
+
+files:
+  total: 70
+  error: 1 
+  empty: 1
+  populated: 68
+  scottish: 42
+records:
+  total: 55662
+  error: 1
+  empty: 1
+  populated: 50686
+  scottish: 16473
+
+2. A text file called location_analysis.txt. Order filenames alphabetically and 
+   format as follows
+
+files_empty:
+    FILENAME
+    FILENAME
+files_without_locations:
+    FILENAME
+    FILENAME
+files_without_scottish_records:
+    FILENAME
+    FILENAME

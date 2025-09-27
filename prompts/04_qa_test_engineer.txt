@@ -1,0 +1,30 @@
+<< ATTACHMENT : <sample metadata file >>
+
+I need Python code to generate a JSON file for testing some 
+location data analysis code against.
+
+REQUIREMENTS:
+
+1. FILE SYNTAX/STRUCTURE: The structure and field names should 
+follow the sample JSON file provided.
+
+2. FILE LENGTH: The file should contain a total number of records, 
+set from the command line (e.g. --records 100).
+
+3. CONTENT/VALUE DISTRIBUTION: Across the whole file, I want 
+command-line arguments to control how many random location entries 
+to include (e.g. --random 35) and how many "Scotland" entries to 
+include (e.g. --scotland 10). Scotland values should vary in casing 
+and may have leading/trailing whitespace. These counts are totals 
+for the entire file, not per record.
+
+4: EMPTY VALUES: All other location entries should be treated as 
+“blank,” using a mix of null, empty strings, or whitespace-only 
+strings.
+
+5. OUTPUT: The output should be a single JSON file, matching the 
+sample’s structure, with the specified totals distributed across 
+the records. Within each record, only the locations block matters. 
+For brevity you can skip all other record blocks when generating 
+the output. The file path is to be provided on the command line 
+(e.g. --out .\out.json).
