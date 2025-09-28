@@ -1,0 +1,32 @@
+{
+    "records": [
+        {
+            "data_providers": [
+                {
+                    "name": "DATA PROVIDER NAME",
+                    "description": "SUMMARY ABOUT PROVIDER",
+                    :
+                }
+            ],
+            :
+            :
+            "locations": [
+                {
+                    "name": "Scotland"   <<<=== the data that we want to analyse
+                }
+            ],
+            "bounding_boxes": [
+                {
+                    "upper_latitude": null,
+                    "upper_longitude": null,
+                    "lower_latitude": null,
+                    "lower_longitude": null
+                }
+            ],
+            :
+        },
+        {dataset #2},
+        {dataset #3},
+        :
+    ]
+}
